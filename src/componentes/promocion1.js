@@ -23,9 +23,10 @@ class Promocion1 extends React.Component{
                 <div className='col-md-6'>
                     <div className='product-small seccion2'>
                     <img className='img-fluid' src='https://www.apple.com/v/home/x/images/logos/watch-series-6/logo__dcojfwkzna2q_large.png'/>
-                        <h4>Watch on Abril 20 at 10:00 a.m. PDT.</h4>
+                        <h4>The future of health is on your wrist.</h4>
                         <div className='links'>
-                            <a href='#' className="learn-more">Learn more <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></a>
+                        <a href='#' className="learn-more">Learn more <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></a>
+                        <a href='#'>Buy <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></a>
                         </div>
                         <img className='img-fluid' src='https://www.apple.com/v/home/x/images/promos/watch-series-6/tile__cauwwcyyn9hy_large.jpg'/>
                     </div>

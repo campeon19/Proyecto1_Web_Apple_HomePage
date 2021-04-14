@@ -20,6 +20,6 @@
     color: white;
 }
 
-.product-small.seccion2 a{
-    color: white;
+.product-small .links .learn-more{
+    margin-right: 20px;
 }
