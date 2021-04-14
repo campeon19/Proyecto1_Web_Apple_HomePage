@@ -1,0 +1,41 @@
+body{
+    padding-top: 50px;
+}
+
+.seccion1{
+    background-image: url('https://www.apple.com/v/home/x/images/heroes/iphone-12/iphone_12_us__fo0stbby242m_mediumtall_2x.jpg');
+}
+
+.producto{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.producto h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.producto h2{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.producto p{
+    font-size: 18px;
+    color: gray;
+    font-family: inherit;
+}
+
+.producto .parrafo2{
+    line-height: 11px;
+}
+
+.producto .links{
+    font-size: 21px;
+    margin-bottom: 80px;
+}
+
+.producto .links .learn-more{
+    margin-right: 20px;
+}
