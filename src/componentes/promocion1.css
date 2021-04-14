@@ -1,8 +1,12 @@
 .product-small{
     height: 550px;
     padding-top: 40px;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 10px 10px;
     text-align: center;
+}
+
+.product-grid{
+    padding-right: 10px;
 }
 
 .product-small h3{
@@ -22,4 +26,23 @@
 
 .product-small .links .learn-more{
     margin-right: 20px;
+}
+
+.product-small.seccion1{
+    background-color: #FBFBFD;
+}
+
+.product-small.seccion3{
+    background-image: url('https://www.apple.com/v/home/x/images/promos/btm-college-acceptance/promo_btm_college_acceptance__bzzmzv8lqahe_medium_2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-small.seccion4{
+    background-image: url('https://www.apple.com/v/home/x/images/promos/ipad-air/tile__cauwwcyyn9hy_large_2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }

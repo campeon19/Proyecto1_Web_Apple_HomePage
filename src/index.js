@@ -7,6 +7,7 @@ import Producto from './componentes/producto';
 import Producto2 from './componentes/producto2';
 import Producto3 from './componentes/producto3';
 import Promocion1 from './componentes/promocion1';
+import Promocion2 from './componentes/promocion2';
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component{
                 <Producto2></Producto2>
                 <Producto3></Producto3>
                 <Promocion1></Promocion1>
+                <Promocion2></Promocion2>
             </div>
         );
     }
