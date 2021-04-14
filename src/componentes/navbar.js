@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap';
 import "./navbar.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faApple} from '@fortawesome/free-brands-svg-icons';
 import {faSearch} from '@fortawesome/free-solid-svg-icons';
 import {faShoppingBag} from '@fortawesome/free-solid-svg-icons';
-import {faTimes} from '@fortawesome/free-solid-svg-icons';
+import {faBars} from '@fortawesome/free-solid-svg-icons';
 
 class NavBar extends React.Component{
 
@@ -29,9 +29,13 @@ class NavBar extends React.Component{
     render(){
         return(
             <nav className="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-                <div className="container"><button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div className="container">
+                    <button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1" type="button" aria-controls='navcol-1' aria-expanded='false' aria-label='Toggle navigation'>
+                        <span className="sr-only">Toggle navigation</span>
+                        <span><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></span>
+                    </button>
                     <div className="collapse navbar-collapse" id="navcol-1">
-                        <ul className="nav navbar-nav flex-grow-1 justify-content-between">
+                        <ul className="navbar-nav flex-grow-1 justify-content-between">
                             <li className="nav-item" role="presentation"><a className="nav-link" href="#"><FontAwesomeIcon className='apple-logo' icon={faApple}></FontAwesomeIcon></a></li>
                             <li className="nav-item" role="presentation"><a className="nav-link" href="#">Mac</a></li>
                             <li className="nav-item" role="presentation"><a className="nav-link" href="#">IPad</a></li>

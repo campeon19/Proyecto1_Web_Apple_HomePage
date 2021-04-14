@@ -1,0 +1,25 @@
+.product-small{
+    height: 550px;
+    padding-top: 40px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.product-small h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.product-small h4{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.product-small.seccion2{
+    background-color: #000000;
+    color: white;
+}
+
+.product-small.seccion2 a{
+    color: white;
+}
