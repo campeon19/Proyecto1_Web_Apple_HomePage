@@ -9,6 +9,7 @@ body{
 .producto{
     padding-top: 100px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .producto h1{
@@ -39,3 +40,24 @@ body{
 .producto .links .learn-more{
     margin-right: 20px;
 }
+
+.producto.IPhone12{
+    background-color:#F2F2F2;
+}
+
+.producto.IPhone12-Pro{
+    background-color: #000000;
+}
+
+.producto.dark{
+    color: white;
+}
+
+.producto.dark a{
+    color: white;
+}
+
+.producto .links.small-link-margin{
+    margin-bottom: 0;
+}
+
