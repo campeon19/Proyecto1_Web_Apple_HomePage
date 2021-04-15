@@ -1,0 +1,33 @@
+.fotter-apple{
+    background-color: #F5F5F7;
+    color: #9c9c9c;
+}
+
+.fotter-apple .container{
+    font-family:-apple-system-footnote;
+    width: 1000px;
+}
+
+.fotter-apple .container .notas-pie{
+    padding-top: 15px;
+}
+
+.fotter-apple .container p{
+    font-size: 13.3px;
+    letter-spacing: 0.002cm;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
+.fotter-apple .container h6{
+    font-size: 13.3px;
+    color: black !important;
+    font-weight: 400;
+}
+
+.fotter-apple .container a{
+    font-size: 13.3px;
+    color: #9c9c9c !important;
+}

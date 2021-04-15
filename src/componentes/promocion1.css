@@ -46,3 +46,19 @@
     background-repeat: no-repeat;
     
 }
+
+.product-small.seccion5{
+    background-image: url('https://www.apple.com/v/home/x/images/promos/arcade-game/promo_tile_arcade_game__gjyz2wtyguqa_large_2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.product-small.seccion6{
+    background-image: url('https://www.apple.com/v/home/x/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
