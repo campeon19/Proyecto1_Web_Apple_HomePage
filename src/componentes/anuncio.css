@@ -1,0 +1,17 @@
+.anuncio{
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.anuncio.azul{
+    background-color: #0071E3;
+}
+
+.anuncio.azul a{
+    color: white;
+}
