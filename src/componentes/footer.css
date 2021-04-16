@@ -5,7 +5,7 @@
 
 .fotter-apple .container{
     font-family:-apple-system-footnote;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .fotter-apple .container .notas-pie{
@@ -29,5 +29,11 @@
 
 .fotter-apple .container a{
     font-size: 13.3px;
-    color: #9c9c9c !important;
+    
 }
+
+.fotter-apple .container .row.links a{
+    color: #757575 !important;
+}
+
+
