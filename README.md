@@ -1,5 +1,5 @@
 # Apple Home Page
-_Este proyecto concistió en replicar el Home Page de Apple_
+_Este proyecto consistió en replicar el Home Page de Apple_
 
 ## Pre-requisitos
 _Para poder ejecutar este programa localmente, es necesario contar con lo siguiente:_
