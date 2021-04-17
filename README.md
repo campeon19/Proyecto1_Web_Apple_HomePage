@@ -2,7 +2,7 @@
 _Este proyecto concistió en replicar el Home Page de Apple_
 
 ## Pre-requisitos
-_Para poder ejecutar este programa localmente, es necesario contar con lo siguiente:
+_Para poder ejecutar este programa localmente, es necesario contar con lo siguiente:_
 * NodeJs
 
 ## Como ejecutarlo
@@ -19,25 +19,25 @@ _Luego, para correrlo localmente con webpack-web-services se escribe lo siguient
 npm start
 ```
 
-_Para obtener el dist, ejecutar lo siguiente en la terminal:
+_Para obtener el dist, ejecutar lo siguiente en la terminal:_
 
 ```
 npm run-script build
 ```
 
 ## Tecnologías utilizadas 🛠️
-*NodeJs
-*ReactJs
-*Webpack
-*Babel
-*Webpack serve
-*ESLint
-*Prettier
-*Font Awesome
-*Bootstrap
+* NodeJs
+* ReactJs
+* Webpack
+* Babel
+* Webpack-web-services
+* ESLint
+* Prettier
+* Font Awesome
+* Bootstrap
 
 ## Autor ✒️
-*[Christian Perez](https://github.com/campeon19)
+[Christian Perez](https://github.com/campeon19)
 
 ## Referencias
 
