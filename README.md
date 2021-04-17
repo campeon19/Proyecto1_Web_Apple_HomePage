@@ -1,7 +1,8 @@
-# Proyecto1_Web_Apple_HomePage
+# Apple Home Page
 _Este proyecto concistió en replicar el Home Page de Apple_
 
-## Herramientas necesarias para poder correrlo
+## Pre-requisitos
+_Para poder ejecutar este programa localmente, es necesario contar con lo siguiente:
 * NodeJs
 
 ## Como ejecutarlo
@@ -23,3 +24,21 @@ _Para obtener el dist, ejecutar lo siguiente en la terminal:
 ```
 npm run-script build
 ```
+
+## Tecnologías utilizadas 🛠️
+*NodeJs
+*ReactJs
+*Webpack
+*Babel
+*Webpack serve
+*ESLint
+*Prettier
+*Font Awesome
+*Bootstrap
+
+## Autor ✒️
+*[Christian Perez](https://github.com/campeon19)
+
+## Referencias
+
+
