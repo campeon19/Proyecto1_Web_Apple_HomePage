@@ -1,5 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable import/no-duplicates */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/prefer-stateless-function */
+
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'bootstrap';
 import './footer.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -57,172 +63,172 @@ class Footer extends React.Component{
                   Branch.
                 </p>
               </div>
-              <hr></hr>
+              <hr />
               <div className="row links">
                 <div className="col-md-2">
                   <div>
-                    <br></br>
+                    <br />
                     <h6>Shop and Learn</h6>
                     <a href="#">Mac </a>
-                    <br></br>
+                    <br />
                     <a href="#">iPad </a>
-                    <br></br>
+                    <br />
                     <a href="#">iPhone </a>
-                    <br></br>
+                    <br />
                     <a href="#">Watch </a>
-                    <br></br>
+                    <br />
                     <a href="#">TV </a>
-                    <br></br>
+                    <br />
                     <a href="#">Music </a>
-                    <br></br>
+                    <br />
                     <a href="#">Airpods </a>
-                    <br></br>
+                    <br />
                     <a href="#">HomePod </a>
-                    <br></br>
+                    <br />
                     <a href="#">iPod touch </a>
-                    <br></br>
+                    <br />
                     <a href="#">Accessories </a>
-                    <br></br>
+                    <br />
                     <a href="#">Gift Cards </a>
                   </div>
                 </div>
                 <div className="col-md-2">
                   <div>
-                    <br></br>
+                    <br />
                     <h6>Services</h6>
                     <a href="#">Apple Music</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple TV+</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Fitness+</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple News+</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Arcade</a>
-                    <br></br>
+                    <br />
                     <a href="#">iCloud</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple One</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Books</a>
-                    <br></br>
+                    <br />
                     <a href="#">App Store</a>
-                    <br></br>
-                    <br></br>
+                    <br />
+                    <br />
                     <h6>Account</h6>
                     <a href="#">Manage Your Apple ID</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Store Account</a>
-                    <br></br>
+                    <br />
                     <a href="#">iCloud.com</a>
-                    <br></br>
+                    <br />
                   </div>
                 </div>
                 <div className="col-md-2">
                   <div>
-                    <br></br>
+                    <br />
                     <h6>Apple Store</h6>
                     <a href="#">Find a Store</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shop Online</a>
-                    <br></br>
+                    <br />
                     <a href="#">Genius Bar</a>
-                    <br></br>
+                    <br />
                     <a href="#">Today at Apple</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Camp</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Store App</a>
-                    <br></br>
+                    <br />
                     <a href="#">Refurbished and Clearance</a>
-                    <br></br>
+                    <br />
                     <a href="#">Financing</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Trade In</a>
-                    <br></br>
+                    <br />
                     <a href="#">Order Status</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shopping Help</a>
                   </div>
                 </div>
                 <div className="col-md-2">
                   <div>
-                    <br></br>
+                    <br />
                     <h6>For Bussines</h6>
                     <a href="#">Apple and Business</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shop for Bussines</a>
-                    <br></br>
-                    <br></br>
+                    <br />
+                    <br />
                     <h6>For Education</h6>
                     <a href="#">Apple and Education</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shop for K-12</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shop for College</a>
-                    <br></br>
-                    <br></br>
+                    <br />
+                    <br />
                     <h6>For Healthcare</h6>
                     <a href="#">Apple in Healthcare</a>
-                    <br></br>
+                    <br />
                     <a href="#">Health on Apple Watch</a>
-                    <br></br>
+                    <br />
                     <a href="#">Health Records on iPhone</a>
-                    <br></br>
-                    <br></br>
+                    <br />
+                    <br />
                     <h6>For Government</h6>
                     <a href="#">Shop for Government</a>
-                    <br></br>
+                    <br />
                     <a href="#">Shop for Veterans and Military</a>
                   </div>
                 </div>
                 <div className="col-md-2">
                   <div>
-                    <br></br>
+                    <br />
                     <h6>Apple Values</h6>
                     <a href="#">Accessibility</a>
-                    <br></br>
+                    <br />
                     <a href="#">Education</a>
-                    <br></br>
+                    <br />
                     <a href="#">Environment</a>
-                    <br></br>
+                    <br />
                     <a href="#">Inclusion and Diversity</a>
-                    <br></br>
+                    <br />
                     <a href="#">Privacy</a>
-                    <br></br>
+                    <br />
                     <a href="#">Racial Equity and Justice</a>
-                    <br></br>
+                    <br />
                     <a href="#">Supplier Responsibility</a>
-                    <br></br>
-                    <br></br>
+                    <br />
+                    <br />
                     <h6>About Apple</h6>
                     <a href="#">Newsroom</a>
-                    <br></br>
+                    <br />
                     <a href="#">Apple Leadership</a>
-                    <br></br>
+                    <br />
                     <a href="#">Job Opportunities</a>
-                    <br></br>
+                    <br />
                     <a href="#">Investors</a>
-                    <br></br>
+                    <br />
                     <a href="#">Ethics & Compliance</a>
-                    <br></br>
+                    <br />
                     <a href="#">Events</a>
-                    <br></br>
+                    <br />
                     <a href="#">Contact Apple</a>
                   </div>
                 </div>
               </div>
-              <br></br>
+              <br />
               <p>
                 More ways to shop: <a href="#">Find an Apple Store</a> or{" "}
                 <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
               </p>
-              <hr></hr>
+              <hr />
               <div className="row links">
                 <div className="col-md-4">
                   <p>
                     Copyright{" "}
-                    <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2021
+                    <FontAwesomeIcon icon={faCopyright} /> 2021
                     Apple Inc. All rights reserved.
                   </p>
                 </div>
@@ -235,13 +241,13 @@ class Footer extends React.Component{
                   </p>
                 </div>
                 <div className="col-md-1">
-                  <p></p>
+                  <p />
                 </div>
                 <div className="col-md-2">
                   <a href="#">United States</a>
                 </div>
               </div>
-              <div></div>
+              <div />
             </div>
           </div>
         );

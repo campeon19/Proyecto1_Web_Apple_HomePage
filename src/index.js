@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import ReactDom from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -17,21 +19,21 @@ import Footer from './componentes/footer';
 
 class App extends React.Component{
     render(){
-        return(
-            <div className='app'>
-                <NavBar></NavBar>
-                <Anuncio1></Anuncio1>
-                <Anuncio2></Anuncio2>
-                <Producto></Producto>
-                <Producto2></Producto2>
-                <Producto3></Producto3>
-                <Promocion1></Promocion1>
-                <Promocion2></Promocion2>
-                <Promocion3></Promocion3>
-                <Footer></Footer>
-            </div>
+        return (
+          <div className="app">
+            <NavBar />
+            <Anuncio1 />
+            <Anuncio2 />
+            <Producto />
+            <Producto2 />
+            <Producto3 />
+            <Promocion1 />
+            <Promocion2 />
+            <Promocion3 />
+            <Footer />
+          </div>
         );
     }
 }
 
-ReactDom.render(<App></App>, document.getElementById('root'));
+ReactDom.render(<App />, document.getElementById('root'));

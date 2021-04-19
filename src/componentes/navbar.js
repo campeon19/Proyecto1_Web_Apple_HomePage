@@ -1,5 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable quotes */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable import/no-duplicates */
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable linebreak-style */
+
+import React from "react";
 import 'bootstrap';
 import "./navbar.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -8,50 +15,86 @@ import {faSearch} from '@fortawesome/free-solid-svg-icons';
 import {faShoppingBag} from '@fortawesome/free-solid-svg-icons';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 
-class NavBar extends React.Component{
-
-    state = {
-        searchBarVisible:false,
-    };
-
-    searchBarTrue = () =>{
-        this.setState({
-            searchBarVisible:true,
-        })
-    }
-
-    searchBarFalse = () =>{
-        this.setState({
-            searchBarVisible:false,
-        })
-    }
-
-    render(){
-        return(
-            <nav className="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-                <div className="container">
-                    <button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1" type="button" aria-controls='navcol-1' aria-expanded='false' aria-label='Toggle navigation'>
-                        <span className="sr-only">Toggle navigation</span>
-                        <span><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navcol-1">
-                        <ul className="navbar-nav flex-grow-1 justify-content-between">
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#"><FontAwesomeIcon className='apple-logo' icon={faApple}></FontAwesomeIcon></a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">Mac</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">IPad</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">IPhone</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">Watch</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">TV</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">Music</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#">Support</a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#"><FontAwesomeIcon icon={faSearch}></FontAwesomeIcon></a></li>
-                            <li className="nav-item" role="presentation"><a className="nav-link" href="#"><FontAwesomeIcon icon={faShoppingBag}></FontAwesomeIcon></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        );
-    }
+class NavBar extends React.Component {
+  render() {
+    return (
+      <nav className="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div className="container">
+          <button
+            data-toggle="collapse"
+            className="navbar-toggler"
+            data-target="#navcol-1"
+            type="button"
+            aria-controls="navcol-1"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="sr-only">Toggle navigation</span>
+            <span>
+              <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+            </span>
+          </button>
+          <div className="collapse navbar-collapse" id="navcol-1">
+            <ul className="navbar-nav flex-grow-1 justify-content-between">
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  <FontAwesomeIcon
+                    className="apple-logo"
+                    icon={faApple}
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  Mac
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  IPad
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  IPhone
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  Watch
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  TV
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  Music
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  Support
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
+                </a>
+              </li>
+              <li className="nav-item" role="presentation">
+                <a className="nav-link" href="#">
+                  <FontAwesomeIcon icon={faShoppingBag}></FontAwesomeIcon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    );
+  }
 };
 
 export default NavBar;
