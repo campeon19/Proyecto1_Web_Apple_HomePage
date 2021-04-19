@@ -1,3 +1,13 @@
+/*
+* Autor: Christian Perez
+* Fecha de inicio: Martes 13 de abril del 2021
+* Fecha de entrega: Viernes 16 de abril del 2021
+* Ultimas modificaciones realizadas: 18 de abril del 2021
+*/
+
+
+
+
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
